@@ -90,7 +90,7 @@ def penPatch(win, topLeft, colour):
             p1 = Point(x + (j * 20), y + (i * 10) + 10) # Far left point
             p2 = Point(x + (j * 20) + 10, y + (i * 10)) # Top point
             p3 = Point(x + (j * 20) + 20, y + (i * 10) + 10) # Far right point
-            drawtriangle(win, p1, p2, p3, fillColour, fillColour)
+            drawTriangle(win, p1, p2, p3, fillColour, fillColour)
 
 def drawCircle(win, centre, radius, fillColour, edgeColour):
     circle = Circle(centre, radius)
